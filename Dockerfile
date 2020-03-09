@@ -14,9 +14,9 @@ ADD wb_pipeline_EEG_calcBasicNetIndices /root/matlab_script/wb_pipeline_EEG_calc
 ADD wb_pipeline_EEG_calcERP /root/matlab_script/wb_pipeline_EEG_calcERP
 ADD wb_pipeline_EEG_Mark /root/matlab_script/wb_pipeline_EEG_Mark
 ADD wb_pipeline_EEG_runICA /root/matlab_script/wb_pipeline_EEG_runICA
-ADD wb_pipeline_EEG_runICA /root/matlab_script/wb_pipeline_EEG_calcLeadfield_standardBEM
-ADD wb_pipeline_EEG_runICA /root/matlab_script/wb_pipeline_EEG_prepro
-ADD wb_pipeline_EEG_runICA /root/matlab_script/wb_pipeline_EEG_QA
+ADD wb_pipeline_EEG_calcLeadfield_standardBEM /root/matlab_script/wb_pipeline_EEG_calcLeadfield_standardBEM
+ADD wb_pipeline_EEG_prepro /root/matlab_script/wb_pipeline_EEG_prepro
+ADD wb_pipeline_EEG_QA /root/matlab_script/wb_pipeline_EEG_QA
 
 RUN chmod 777 -R /root/matlab_script/
 RUN rm -rf /script
