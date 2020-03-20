@@ -1,6 +1,6 @@
 FROM xin0214/matlab_config
 
-MAINTAINER Li Dong <li_dong729@163.com>
+MAINTAINER Li Dong <youlong1230@126.com>
 
 RUN apt-get update
 RUN apt-get -y install git
