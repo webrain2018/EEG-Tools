@@ -19,7 +19,7 @@ ADD wb_pipeline_EEG_calcLeadfield_standardBEM /root/matlab_script/wb_pipeline_EE
 ADD wb_pipeline_EEG_prepro /root/matlab_script/wb_pipeline_EEG_prepro
 ADD wb_pipeline_EEG_QA /root/matlab_script/wb_pipeline_EEG_QA
 
-ADD standard_bem /root/matlab_script/standard_bem
+ADD standard_bem.mat /root/matlab_script/standard_bem.mat
 
 RUN chmod 777 -R /root/matlab_script/
 RUN rm -rf /script
