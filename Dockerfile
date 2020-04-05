@@ -1,5 +1,5 @@
-FROM xin0214/matlab_config
-
+#FROM xin0214/matlab_config
+FROM xin0214/matlab:latest
 
 MAINTAINER Li Dong <Lidong@uestc.edu.cn>
 
