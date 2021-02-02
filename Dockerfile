@@ -18,8 +18,10 @@ ADD wb_pipeline_EEG_runICA /root/matlab_script/wb_pipeline_EEG_runICA
 ADD wb_pipeline_EEG_calcLeadfield_standardBEM /root/matlab_script/wb_pipeline_EEG_calcLeadfield_standardBEM
 ADD wb_pipeline_EEG_prepro /root/matlab_script/wb_pipeline_EEG_prepro
 ADD wb_pipeline_EEG_QA /root/matlab_script/wb_pipeline_EEG_QA
+ADD wb_pipeline_EEG_sourceimage /root/matlab_script/wb_pipeline_EEG_sourceimage
+ADD wb_pipeline_EEG_prepro_cm /root/matlab_script/wb_pipeline_EEG_prepro_cm
 
-ADD standard_bem.mat /root/matlab_script/standard_bem.mat
+ADD standard_bem.mat /root/matlab_script/intermfile.mat
 
 RUN chmod 777 -R /root/matlab_script/
 RUN rm -rf /script
