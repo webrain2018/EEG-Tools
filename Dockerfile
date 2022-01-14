@@ -29,6 +29,12 @@ ADD wb_pipeline_EEG_sourceimage_par /root/matlab_script/wb_pipeline_EEG_sourceim
 ADD wb_pipeline_EEG_prepro_cm_par /root/matlab_script/wb_pipeline_EEG_prepro_cm_par
 
 ADD intermfile.mat /root/matlab_script/intermfile.mat
+ADD GSN-HydroCel-33.sfp /root/matlab_script/GSN-HydroCel-33.sfp
+ADD GSN-HydroCel-65.sfp /root/matlab_script/GSN-HydroCel-65.sfp
+ADD GSN-HydroCel-129.sfp /root/matlab_script/GSN-HydroCel-129.sfp
+ADD GSN-HydroCel-257.sfp /root/matlab_script/GSN-HydroCel-257.sfp
+ADD MFF-1.2.jar /root/matlab_script/MFF-1.2.jar
+ADD PIB.sfp /root/matlab_script/PIB.sfp
 
 RUN chmod 777 -R /root/matlab_script/
 RUN rm -rf /script
