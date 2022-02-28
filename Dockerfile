@@ -17,6 +17,7 @@ ADD wb_pipeline_EEG_runICA /root/matlab_script/wb_pipeline_EEG_runICA
 ADD wb_pipeline_EEG_calcLeadfield_standardBEM /root/matlab_script/wb_pipeline_EEG_calcLeadfield_standardBEM
 ADD wb_pipeline_EEG_prepro /root/matlab_script/wb_pipeline_EEG_prepro
 ADD wb_pipeline_EEG_QA /root/matlab_script/wb_pipeline_EEG_QA
+ADD wb_pipeline_EEG_QA_v2 /root/matlab_script/wb_pipeline_EEG_QA_v2
 ADD wb_pipeline_EEG_sourceimage /root/matlab_script/wb_pipeline_EEG_sourceimage
 ADD wb_pipeline_EEG_prepro_cm /root/matlab_script/wb_pipeline_EEG_prepro_cm
 
@@ -35,6 +36,8 @@ ADD GSN-HydroCel-129.sfp /root/matlab_script/GSN-HydroCel-129.sfp
 ADD GSN-HydroCel-257.sfp /root/matlab_script/GSN-HydroCel-257.sfp
 ADD MFF-1.2.jar /root/matlab_script/MFF-1.2.jar
 ADD PIB.sfp /root/matlab_script/PIB.sfp
+ADD ANT_WG_standard_346.ced /root/matlab_script/ANT_WG_standard_346.ced
+ADD Standard-10-5-Cap385_witheog.elp /root/matlab_script/Standard-10-5-Cap385_witheog.elp
 
 RUN chmod 777 -R /root/matlab_script/
 RUN rm -rf /script
