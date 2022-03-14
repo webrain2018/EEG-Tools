@@ -3,10 +3,7 @@ FROM xin0214/matlab:latest
 
 MAINTAINER Li Dong <Lidong@uestc.edu.cn>
 
-RUN apt-get update
-RUN apt-get -y install git
-RUN mkdir -p /script
-RUN cd /script && git clone https://github.com/webrain2018/EEG-Tools.git
+#RUN apt-get update && apt-get -y install git && mkdir -p /script && cd /script && git clone https://github.com/webrain2018/EEG-Tools.git
 ADD wb_pipeline_EEG_REST /root/matlab_script/wb_pipeline_EEG_REST
 ADD wb_pipeline_EEG_calcPower /root/matlab_script/wb_pipeline_EEG_calcPower
 ADD wb_pipeline_EEG_calcEEGnetwork /root/matlab_script/wb_pipeline_EEG_calcEEGnetwork
@@ -39,5 +36,6 @@ ADD PIB.sfp /root/matlab_script/PIB.sfp
 ADD ANT_WG_standard_346.ced /root/matlab_script/ANT_WG_standard_346.ced
 ADD Standard-10-5-Cap385_witheog.elp /root/matlab_script/Standard-10-5-Cap385_witheog.elp
 
-RUN chmod 777 -R /root/matlab_script/
-RUN rm -rf /script
+RUN chmod 777 -R /root/matlab_script/ 
+WORKDIR /root/matlab_script
+#RUN rm -rf /script
