@@ -17,6 +17,8 @@ ADD wb_pipeline_EEG_QA /root/matlab_script/wb_pipeline_EEG_QA
 ADD wb_pipeline_EEG_QA_v2 /root/matlab_script/wb_pipeline_EEG_QA_v2
 ADD wb_pipeline_EEG_sourceimage /root/matlab_script/wb_pipeline_EEG_sourceimage
 ADD wb_pipeline_EEG_prepro_cm /root/matlab_script/wb_pipeline_EEG_prepro_cm
+ADD wb_pipeline_EEG_calcLZC /root/matlab_script/wb_pipeline_EEG_calcLZC
+ADD wb_pipeline_EEG_timefreq /root/matlab_script/wb_pipeline_EEG_timefreq
 
 ADD wb_pipeline_EEG_calcPower_par /root/matlab_script/wb_pipeline_EEG_calcPower_par
 ADD wb_pipeline_EEG_calcEEGnetwork_par /root/matlab_script/wb_pipeline_EEG_calcEEGnetwork_par
