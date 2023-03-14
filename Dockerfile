@@ -19,6 +19,8 @@ ADD wb_pipeline_EEG_sourceimage /root/matlab_script/wb_pipeline_EEG_sourceimage
 ADD wb_pipeline_EEG_prepro_cm /root/matlab_script/wb_pipeline_EEG_prepro_cm
 ADD wb_pipeline_EEG_calcLZC /root/matlab_script/wb_pipeline_EEG_calcLZC
 ADD wb_pipeline_EEG_timefreq /root/matlab_script/wb_pipeline_EEG_timefreq
+ADD wb_pipeline_EEG_calcMicrostate /root/matlab_script/wb_pipeline_EEG_calcMicrostate
+ADD wb_pipeline_EEG_calcERP_QA /root/matlab_script/wb_pipeline_EEG_calcERP_QA
 
 ADD wb_pipeline_EEG_calcPower_par /root/matlab_script/wb_pipeline_EEG_calcPower_par
 ADD wb_pipeline_EEG_calcEEGnetwork_par /root/matlab_script/wb_pipeline_EEG_calcEEGnetwork_par
@@ -27,6 +29,7 @@ ADD wb_pipeline_EEG_runICA_par /root/matlab_script/wb_pipeline_EEG_runICA_par
 ADD wb_pipeline_EEG_prepro_par /root/matlab_script/wb_pipeline_EEG_prepro_par
 ADD wb_pipeline_EEG_sourceimage_par /root/matlab_script/wb_pipeline_EEG_sourceimage_par
 ADD wb_pipeline_EEG_prepro_cm_par /root/matlab_script/wb_pipeline_EEG_prepro_cm_par
+ADD wb_pipeline_EEG_calcLZC_par /root/matlab_script/wb_pipeline_EEG_calcLZC_par
 
 ADD intermfile.mat /root/matlab_script/intermfile.mat
 ADD GSN-HydroCel-33.sfp /root/matlab_script/GSN-HydroCel-33.sfp
